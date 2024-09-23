@@ -2,8 +2,11 @@
 int main() {
     int a,b,c;
     scanf("%d %d %d", &a, &b, &c );
-    if((a == b && a!=c)||(a == c && a!=b || (c == b && b!=a)))
-    printf("Треугольник ранобедреный ");
-   
+    if((a == b && a!=c)||(a == c && a!=b || (c == b && b!=a))) {
+        printf("Треугольник ранобедреный ");
+    }
+    else {
+        printf("Треугольник  не ");
+    }
     return 0;
 }
