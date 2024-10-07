@@ -1,9 +1,6 @@
 #include <stdio.h>
 int main() {
-    float  l,r,p,A;
-    scanf("%f %f %f", &l, &r,&p );
-    A = l*(r/50)*p;
-    printf("A=  %f", A);
-   
-    return 0;
+    for (int i =0;i <10;i++){
+        printf("%d\n",i);
+    }
 }
