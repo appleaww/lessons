@@ -1,9 +1,23 @@
 #include <stdio.h>
 int main() {
-    int num;
-    int k =0;
-    scanf("%d",&num);
+    int arr[10];
+    int i =0;
+    for(;i<10; i++)
+        while(i<10) {
+        scanf("%d", &arr[i]);
+    }
+    int chet = 0;
+    int ne_chet =0;
+    for (int a =0; a<10;a++) {
+        if (arr[a] %2 == 0) {
+            chet ++;
+        }
+        else{
+            ne_chet ++;
+        }
+    }  
+    printf("%d %d", chet, ne_chet);
+
     
-    printf("%d", num%1000/100);
     return 0;
 }
