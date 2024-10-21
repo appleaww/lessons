@@ -5,6 +5,7 @@ int main() {
     int size;
     scanf("%d", &size);
     int* arr  = (int*)malloc(size * sizeof(int));
+    free(arr);
     int* arr  = (int*)calloc(size, sizeof(int));
     arr[0] = 123;
     free(arr);
