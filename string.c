@@ -3,9 +3,10 @@
 int main(){
 char a[] = "aaertg";
 printf("%s",a);
-puts(a);
+puts(a);//вывод строки
 char i[10];
-fgets(i,sizeof(i),stdin);
+fgets(i,sizeof(i),stdin);//ввод строки
 printf("%d",(strlen(a)));
+strcat(a,i); //обьединение строк
 
 }
