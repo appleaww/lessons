@@ -21,9 +21,9 @@ int print_matrix(int** matrix, int size){
 int main(){   
     int n;
     scanf("%d",&n);
-    int** arr1 = malloc(n*sizeof(int*));
+    int** arr1 =malloc(n*sizeof(int*));
     for(int i =0; i<n; i++){
-        arr1[i] =malloc(n*sizeof(int));
+        arr1[i] = malloc(n*sizeof(int));
         for(int j =0; j<n; j++){
             scanf("%d",&arr1[i][j]);
         }
